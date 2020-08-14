@@ -236,16 +236,18 @@ console.log(getArtistByIndex(artists,0));
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born in and died in 20th century (1900-2000) example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included - should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array){
-  let arr = [];
-  for(let i in array) {
-    if(parseInt(array[i].years) >= 1900) {
-      arr.push(array[i].name);
-    }
-  }
-  return arr;
-}
-console.log(get20s(artists));
+  let arr2 = [];
+  let _20cent = [];
 
+  for(let i = 0; i < array.length; i++) {
+    arr2[i] = array[i].years.split(' - ');
+    if(parseInt(arr2[i][0]) >= 1900 && parseInt(arr2[i][1]) <= 2000)
+       _20cent.push(array[i].name);
+  }
+  
+  return _20cent;
+}
+console.log(get20s([...artists]))
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
@@ -366,6 +368,6 @@ console.log(artists);
  let onlyName = artists.map(x => x.name);
  console.log(onlyName);
 
- let addAllpaintings = artists.reduce((total, artist) => total + artist.paintings, 0);
+ let addAllpaintings = artists.reduce((accumulator, currentValue) => accumulator + currentValue.paintings, 0);
  console.log(addAllpaintings);
- //! returning NaN
+ // returning NaN

@@ -23,13 +23,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
-  Acessibility is to help someone to understand better in any disability to comprehend the website. 
+  Acessibility is to help someone to understand better in any disabilities to comprehend the website. 
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
   Font size change depends on screensize, use 'alt' in image to help someone who can read or see from website, and keyboard access in order to use website conveniently.
 
 3. How would you explain the concept of a variable to someone new to programming?
-  Variable is a box that can save any information with given name on it.
+  Variable is a space of memory that can save any information with given name on it.
 
 4. What is the purpose of using functions in code?
   The purpose of function in code is to do a certain action in any place of code.
@@ -62,9 +62,9 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Website is responsive at multiple breakpoints and looks good in-between breakpoints because student is using responsive units of measurement where appropriate. Student is using most semantic HTML for each element on page and has included ARIA roles where applicable (More research may be required to impliment ARIA roles)  
-* [ ] Student demonstrates and can explain a deep understanding of basic programming concepts, when walking Team Lead through the explaination of their code.
-* [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) - do this seperate from your MVP tasks
+* [1] Website is responsive at multiple breakpoints and looks good in-between breakpoints because student is using responsive units of measurement where appropriate. Student is using most semantic HTML for each element on page and has included ARIA roles where applicable (More research may be required to impliment ARIA roles)  
+* [1] Student demonstrates and can explain a deep understanding of basic programming concepts, when walking Team Lead through the explaination of their code.
+* [1] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) - do this seperate from your MVP tasks
 
 
 ## Resources
