@@ -279,7 +279,7 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 At the end, this function should return the new array with information added"*/
 
 function addArtist(array){
-  let newArtist = {'id': 20, 'name': 'Joon', 'years': '1990 - present', 'genre': 'Web Design', 'nationality': 'Mars', 'bio': 'Joon was the modern scientist person who contributed human to shift to live in the Mars successfully which new colonization could happened.'}
+  let newArtist = {'id': 20, 'name': 'Joon', 'years': '1990 - 2020', 'genre': 'Web Design', 'nationality': 'Mars', 'bio': 'Joon was the modern scientist person who contributed human to shift to live in the Mars successfully which new colonization could happened.', 'paintings': 50}
 
   array.push(newArtist);
   return artists;
@@ -370,4 +370,3 @@ console.log(artists);
 
  let addAllpaintings = artists.reduce((accumulator, currentValue) => accumulator + currentValue.paintings, 0);
  console.log(addAllpaintings);
- // returning NaN
